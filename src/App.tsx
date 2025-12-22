@@ -13,6 +13,7 @@ import MemoizationExamples from './components/MemoizationExamples'
 import ConcurrentFeatures from './components/ConcurrentFeatures'
 import { colors, shadows, borderRadius, gradients, spacing } from './theme/design-system'
 import LazyLoadExample from './components/LazyLoadExample'
+import { CompilerTest } from './components/CompilerTest'
 // import HeavyComponent from './components/HeavyComponent'
 // import ChartComponent from './components/ChartComponent'
 
@@ -506,6 +507,8 @@ function App() {
 
               {/* Compound Components */}
               <CompoundComponentsExample />
+
+              <CompilerTest />
             </div>
 
             {/* Footer */}
